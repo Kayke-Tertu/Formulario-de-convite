@@ -53,3 +53,41 @@
         width: 20rem;
     }
 }
+
+
+.terms .borda{
+
+        border: 1px solid var(--shape-hover);
+        margin-bottom: 3rem;
+ 
+}
+
+
+.terms {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap:.50rem;
+}
+
+.term1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+/* Esconde o input checkbox */
+.term1 input {
+    display: none;
+}
+
+/* Ajusta a imagem do checkbox */
+.term1 label img {
+    cursor: pointer;
+}
+
+/* Quando o checkbox for marcado, muda a imagem */
+.term1 input:checked + label img {
+    content: url("../assets/Icon/check-cheked.svg");
+}
