@@ -9,7 +9,7 @@
 :root{
 
     --font-familyOne: "Leckerli One", serif; /*regular 400*/
-    --logo:400 1rem/1.5 var(--font-familyOne);
+    --logo:500 8rem/1.5 var(--font-familyOne);
 
     --font-familyOpen: "Open Sans", serif;
     --titlle:700 2rem/1.5 var(--font-familyOpen);

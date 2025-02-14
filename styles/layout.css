@@ -40,3 +40,24 @@ legend{
         padding:.80rem;
     }
 }
+
+aside{
+    background-position: center;
+    background-color: var(--shape-background);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/images/Background.png);
+}
+
+.overlay{
+    margin:5rem 5rem;
+    & h1{
+        font: var(--logo);
+        color: var(--danger);
+    }
+
+    & p {
+        color: var(--text-heading);
+        font: var(--titlle);
+    }
+}
