@@ -1,0 +1,55 @@
+.header-dados{
+    display: flex;
+    align-items: center;
+    gap: .50rem;
+}
+
+
+.text-name{
+    margin-bottom: 3rem;
+    & input{
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+.text-name .obrigatorio{
+    margin-top: .35rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.text-name .obrigatorio span {
+    font: var(--body-sm);
+    color: rgba(212, 60, 60, 0.884);
+}
+
+.text-name input:required {
+    border: 2px solid rgba(212, 60, 60, 0.884);
+    
+}
+
+.text-name input:valid{
+    border: transparent;
+}
+
+.text-name input:valid + .obrigatorio {
+    display: none;
+}
+
+.input-email{
+    width: 100%;
+    margin-right: 2rem;
+    width: 100%;
+}
+
+
+.input-email .input-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+    & input{
+        padding: 1rem;
+        width: 20rem;
+    }
+}

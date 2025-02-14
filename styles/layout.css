@@ -1,0 +1,42 @@
+#app{
+    display: grid;
+    grid-template-columns: 48.755% 51.25% ;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main{
+    background-color:var(--shape-body) ;
+    overflow: auto;
+    padding: 4rem;
+
+    & .main-container{
+        max-width: 33rem;
+        margin-left: auto;
+    }
+}
+
+header{
+    color: var(--text-heading);
+    font: var(--titlle);
+}
+
+legend{
+    color: var(--text-heading);
+    font: var(--body-md);
+}
+
+#header-event{
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+}
+
+#start-end{
+    display: flex;
+    gap: 1rem;
+    & input{
+        width: 100%;
+        padding:.80rem;
+    }
+}

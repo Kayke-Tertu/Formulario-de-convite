@@ -1,0 +1,15 @@
+fieldset{
+    display: grid;
+    border: none;
+    gap: 1.5rem;
+}
+
+form{margin-top: 3rem;}
+
+.input-wrapper{
+    display: grid;
+}
+
+.input-wrapper input#title{
+    padding: .80rem;
+}

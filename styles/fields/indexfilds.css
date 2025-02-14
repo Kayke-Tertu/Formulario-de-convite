@@ -1,0 +1,17 @@
+@import url(radio.css);
+@import url(text-area.css);
+
+label{
+    display: block;
+    margin-bottom: .35rem;
+    font: var(--body-sm);
+    color: var(--text-body);
+}
+
+input{
+    padding: .40rem;
+    border-radius: .35rem;
+    background-color: var(--shape-background);
+    border: 1px solid var(--shape-button);
+    color: var(--text-heading);
+}
