@@ -75,6 +75,12 @@
     align-items: center;
     gap: 8px;
     cursor: pointer;
+
+    & span {
+        color:var(--brand-light);
+        text-decoration:underline;
+        cursor: pointer;
+    }
 }
 
 /* Esconde o input checkbox */
@@ -90,4 +96,26 @@
 /* Quando o checkbox for marcado, muda a imagem */
 .term1 input:checked + label img {
     content: url("../assets/Icon/check-cheked.svg");
+}
+
+.button{
+    
+    & button{
+        display: flex;
+        border-radius:.50rem;
+        background-color: var(--brand-dark);
+        padding: .80rem;
+        align-items: center;
+        justify-self: end;
+
+        & p {
+            font: var(--body-sm);
+            color: var(--text-heading);
+        }
+
+        & img{
+            margin-right: .40rem;
+            justify-self: center;
+        }
+    }
 }
